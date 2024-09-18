@@ -23,7 +23,7 @@ For bedrock edition see [bedrock.md](bedrock.md)
 | blockLoot.json | No | Use [minecraft-jar-extractor][11] | Extractor can be very be tempermental at times
 | entityLoot.json | No |  Use [minecraft-jar-extractor][11] | Extractor can be very be tempermental at times
 | mapIcons.json | No | Icons data can be found in the Minecraft source directly. Alternatively you might be able to look up the icons from the following page on the [Minecraft wiki][7] or from [wiki.vg][8]. | [reinarpg-data pr mapIcons][9] | 
-| loginPacket.json | Yes | Running tests on [node-minecraft-protocol][10] |
+| loginPacket.json | Yes | Running tests on [node-reinarpg-protocol][10] |
 | sounds.json | Yes | Use [reinarpg-data-generator-server][2] | Make sure to check the packets that use this and the friendlybytebuffer functions to check if an offset is needed in the generator code.
 
 
@@ -45,7 +45,7 @@ Additionally in data/pc/common the versions.json file needs to be updated with t
 [7]: https://minecraft.wiki/Map#Map_icons
 [8]: https://wiki.vg/Protocol#Map_Data
 [9]: https://github.com/PrismarineJS/reinarpg-data-auto-updater
-[10]: https://github.com/PrismarineJS/node-minecraft-protocol
+[10]: https://github.com/PrismarineJS/node-reinarpg-protocol
 [11]:  https://github.com/PrismarineJS/minecraft-jar-extractor
 [12]: https://github.com/Pokechu22/Burger
 [13]: https://github.com/PrismarineJS/burger-extractor

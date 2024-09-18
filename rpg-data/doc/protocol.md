@@ -14,7 +14,7 @@ The protocol data is manually updated. It is updated by looking at changes made 
 
 ### Protocol schema
 
-This project uses ProtoDef's schema for representing Minecraft protocol packets in JSON. These protocol.json files can then be used to generate code to serialize and deserialize Minecraft packets in any language. See the documentation for [node-protodef here](https://github.com/ProtoDef-io/node-protodef) for a Node.js implementation. In PrismarineJS/minecraft-protocol and PrismarineJS/bedrock-protocol, JavaScript code is generated from the JSON through the node-protodef compiler.
+This project uses ProtoDef's schema for representing Minecraft protocol packets in JSON. These protocol.json files can then be used to generate code to serialize and deserialize Minecraft packets in any language. See the documentation for [node-protodef here](https://github.com/ProtoDef-io/node-protodef) for a Node.js implementation. In PrismarineJS/reinarpg-protocol and PrismarineJS/bedrock-protocol, JavaScript code is generated from the JSON through the node-protodef compiler.
 
 #### YAML syntax
 

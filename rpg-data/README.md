@@ -74,7 +74,7 @@ These are the projects that use reinarpg-data:
 | Project name | Language | Project type | Data used |
 | --- | --- | --- | --- |
 | [reinarpg-bot](https://github.com/reinarpg/reinarpg-bot) | Node.js | bot library | biomes, blocks, entities, instruments, items, materials, recipes |
-| [node-minecraft-protocol](https://github.com/PrismarineJS/node-minecraft-protocol) | Node.js | protocol serialization | protocol |
+| [node-reinarpg-protocol](https://github.com/PrismarineJS/node-reinarpg-protocol) | Node.js | protocol serialization | protocol |
 | [flying-squid](https://github.com/PrismarineJS/flying-squid) | Node.js | server library | biomes, blocks, materials |
 | [SpockBot](https://github.com/SpockBotMC/SpockBot) | Python | bot library | biomes, blocks, items, materials, windows, recipes |
 | [PhaseBot](https://github.com/phase/PhaseBot) | Java | bot | blocks, items, materials |

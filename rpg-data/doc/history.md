@@ -908,7 +908,7 @@
 
 ## 0.4.0
  * add some basic (to be used for manual updating) protocol extractors
- * import protocol.json from node-minecraft-protocol for version 1.8 of minecraft
+ * import protocol.json from node-reinarpg-protocol for version 1.8 of minecraft
 
 ## 0.3.0
  * remove id indexing from biomes, blocks, entities, items and instruments : let users (for examples node-reinarpg-data) provide their indexing (by id, name,...)
