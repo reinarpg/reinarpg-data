@@ -393,7 +393,7 @@
 * reverse bedrock version list
 
 ## 2.118.0
-* Add prismarine-item features
+* Add reinarpg-item features
 
 ## 2.117.0
 * Add "metadataIxOfItem" feature
@@ -405,7 +405,7 @@
 * pc: Fix name conflict with existing "version" and type from features.json
 
 ## 2.115.0
-* pc: Add features.json from mineflayer
+* pc: Add features.json from reinarpg-bot
 
 ## 2.114.1
 * pc: fix 1.18.2 data paths

@@ -73,7 +73,7 @@ These are the projects that use minecraft-data:
 
 | Project name | Language | Project type | Data used |
 | --- | --- | --- | --- |
-| [mineflayer](https://github.com/PrismarineJS/mineflayer) | Node.js | bot library | biomes, blocks, entities, instruments, items, materials, recipes |
+| [reinarpg-bot](https://github.com/reinarpg/reinarpg-bot) | Node.js | bot library | biomes, blocks, entities, instruments, items, materials, recipes |
 | [node-minecraft-protocol](https://github.com/PrismarineJS/node-minecraft-protocol) | Node.js | protocol serialization | protocol |
 | [flying-squid](https://github.com/PrismarineJS/flying-squid) | Node.js | server library | biomes, blocks, materials |
 | [SpockBot](https://github.com/SpockBotMC/SpockBot) | Python | bot library | biomes, blocks, items, materials, windows, recipes |
@@ -109,7 +109,7 @@ Pages interesting to manually update the data if necessary:
 | ---- | ---- |
 | [wiki.vg Inventory page](http://wiki.vg/Inventory) | windows |
 | [wiki.vg](http://wiki.vg/Block_Actions) | instruments |
-| [a mineflayer PR](https://github.com/PrismarineJS/mineflayer/pull/197) | biomes |
+| [a reinarpg-bot PR](https://github.com/reinarpg/reinarpg-bot/pull/197) | biomes |
 | [mcwiki effects page](https://minecraft.wiki/w/Effect) | effects |
 | [wiki.vg protocol version numbers](http://wiki.vg/Protocol_version_numbers) | protocolVersions |
 
