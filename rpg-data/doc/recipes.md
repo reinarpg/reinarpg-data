@@ -147,5 +147,5 @@ The recipes may not be sorted.
 - [Python](https://gist.github.com/Gjum/9c0491aad1c8ec8d6f38#file-recipe-py)
 
 ## Json schema
-The [json schema](https://github.com/PrismarineJS/minecraft-data/blob/master/enums_schemas/recipes_schema.json) automatically
-checks whether the recipes.json respects that format, see the [visualization](http://prismarinejs.github.io/minecraft-data/) here.
+The [json schema](https://github.com/PrismarineJS/reinarpg-data/blob/master/enums_schemas/recipes_schema.json) automatically
+checks whether the recipes.json respects that format, see the [visualization](http://prismarinejs.github.io/reinarpg-data/) here.

@@ -1,7 +1,7 @@
 {
-  "name": "minecraft-data-tools",
+  "name": "reinarpg-data-tools",
   "private": true,
-  "description": "minecraft-data tools",
+  "description": "reinarpg-data tools",
   "scripts": {
     "test": "mocha --reporter spec",
     "lint": "standard",

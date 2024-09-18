@@ -1,16 +1,16 @@
 # Making a new wrapper
 
-minecraft-data has currently a few wrapper (see the list in the README) for several languages.
-If you want to use minecraft-data in a new language, you might want to create a wrapper for that language.
+reinarpg-data has currently a few wrapper (see the list in the README) for several languages.
+If you want to use reinarpg-data in a new language, you might want to create a wrapper for that language.
 
 Here is a simple way to do it :
 
 * create a git repo
-* add minecraft-data as a submodule : 
-  `git submodule add https://github.com/PrismarineJS/minecraft-data.git`
+* add reinarpg-data as a submodule : 
+  `git submodule add https://github.com/PrismarineJS/reinarpg-data.git`
 * add code in your language to read the json files
 * add some code to index the data by name, by id to provide an api like 
-[api.md](https://github.com/PrismarineJS/node-minecraft-data/blob/master/doc/api.md)
+[api.md](https://github.com/PrismarineJS/node-reinarpg-data/blob/master/doc/api.md)
 * add some readme and doc to explain that api
 * add a basic example
 * add files to package your module (for example in js it's a package.json, in python a setup.py)

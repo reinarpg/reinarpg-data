@@ -1,185 +1,185 @@
 ## 3.68.0
-* [Add bedrock 1.21.20 protocol data (#902)](https://github.com/PrismarineJS/minecraft-data/commit/854446ec2b05cab0d252469e4d94c43492019f3e) (thanks @extremeheat)
-* [Implement protodef-yaml for mcpc (#886)](https://github.com/PrismarineJS/minecraft-data/commit/a748994fe231c356ffece37c533bcda5816b3d7a) (thanks @extremeheat)
+* [Add bedrock 1.21.20 protocol data (#902)](https://github.com/PrismarineJS/reinarpg-data/commit/854446ec2b05cab0d252469e4d94c43492019f3e) (thanks @extremeheat)
+* [Implement protodef-yaml for mcpc (#886)](https://github.com/PrismarineJS/reinarpg-data/commit/a748994fe231c356ffece37c533bcda5816b3d7a) (thanks @extremeheat)
 
 ## 3.67.0
-* [Add bedrock 1.21.2 protocol data (#895)](https://github.com/PrismarineJS/minecraft-data/commit/35a8033e1ad4daba7e0d1c9a3112ab0b882251d6) (thanks @CreeperG16)
-* [Correction to bedrock ItemStackRequests packet auto craft (#894)](https://github.com/PrismarineJS/minecraft-data/commit/ddd0700d1fe0c654a9f889b7263eeeaba48b0511) (thanks @extremeheat)
-* [Bedrock 1.21.0 blocks data (#892)](https://github.com/PrismarineJS/minecraft-data/commit/d84b2283dc64fb246d6239e4b9fa8487c6f420eb) (thanks @bedrock-bot)
-* [Add some 1.20.5 data (#879)](https://github.com/PrismarineJS/minecraft-data/commit/4ca8db1dd3d45302de3c33d01cfcc75464afdba1) (thanks @qwqtoday)
+* [Add bedrock 1.21.2 protocol data (#895)](https://github.com/PrismarineJS/reinarpg-data/commit/35a8033e1ad4daba7e0d1c9a3112ab0b882251d6) (thanks @CreeperG16)
+* [Correction to bedrock ItemStackRequests packet auto craft (#894)](https://github.com/PrismarineJS/reinarpg-data/commit/ddd0700d1fe0c654a9f889b7263eeeaba48b0511) (thanks @extremeheat)
+* [Bedrock 1.21.0 blocks data (#892)](https://github.com/PrismarineJS/reinarpg-data/commit/d84b2283dc64fb246d6239e4b9fa8487c6f420eb) (thanks @bedrock-bot)
+* [Add some 1.20.5 data (#879)](https://github.com/PrismarineJS/reinarpg-data/commit/4ca8db1dd3d45302de3c33d01cfcc75464afdba1) (thanks @qwqtoday)
 
 ## 3.66.0
-* [Add Bedrock 1.21.0 protocol data (#882)](https://github.com/PrismarineJS/minecraft-data/commit/67a392d204775473ce28b37db0bcfa01218624bb) (thanks @CreeperG16)
-* [Add pc 1.18+ Book editing feature (#876)](https://github.com/PrismarineJS/minecraft-data/commit/af0ce69e3c212c1bd06e544b94049ae8bf11f321) (thanks @unlimitedcoder2) 
-* [Update steve skin for bedrock (#880)](https://github.com/PrismarineJS/minecraft-data/commit/141dc91ad21b0713bd5ca56b7f79aa4874a3c128) (thanks @yowzaoppo)
+* [Add Bedrock 1.21.0 protocol data (#882)](https://github.com/PrismarineJS/reinarpg-data/commit/67a392d204775473ce28b37db0bcfa01218624bb) (thanks @CreeperG16)
+* [Add pc 1.18+ Book editing feature (#876)](https://github.com/PrismarineJS/reinarpg-data/commit/af0ce69e3c212c1bd06e544b94049ae8bf11f321) (thanks @unlimitedcoder2) 
+* [Update steve skin for bedrock (#880)](https://github.com/PrismarineJS/reinarpg-data/commit/141dc91ad21b0713bd5ca56b7f79aa4874a3c128) (thanks @yowzaoppo)
 
 ## 3.65.0
-* [Add bedrock 1.20.80 protocol data (#873)](https://github.com/PrismarineJS/minecraft-data/commit/7c216d876417eb3fe27c317700b38f0e638ee47a) (thanks @extremeheat)
+* [Add bedrock 1.20.80 protocol data (#873)](https://github.com/PrismarineJS/reinarpg-data/commit/7c216d876417eb3fe27c317700b38f0e638ee47a) (thanks @extremeheat)
 * Update pc protocolVersions.json with 1.20.5 and new snapshots
-* [Add bedrock 1.19.80-1.20.71 blocks data (#864)](https://github.com/PrismarineJS/minecraft-data/commit/e34bced290112d8fe7c3935369eec969b8453a71) (thanks @FreezeEngine)
-* [Update bedrock protocol to fix `command_executed` and `player_movement_corrected` typos (#871)](https://github.com/PrismarineJS/minecraft-data/commit/0f86acc3b91279743fcc991ad2c9c313b8ebda57) (thanks @kotinash)
+* [Add bedrock 1.19.80-1.20.71 blocks data (#864)](https://github.com/PrismarineJS/reinarpg-data/commit/e34bced290112d8fe7c3935369eec969b8453a71) (thanks @FreezeEngine)
+* [Update bedrock protocol to fix `command_executed` and `player_movement_corrected` typos (#871)](https://github.com/PrismarineJS/reinarpg-data/commit/0f86acc3b91279743fcc991ad2c9c313b8ebda57) (thanks @kotinash)
 
 ## 3.64.1
-* [Update bedrock features.json to add `blockHashes`](https://github.com/PrismarineJS/minecraft-data/commit/bf994a81894ab47cf031ecdc9dff7165ac89e56e) (thanks @extremeheat)
-* [Add 24w12a to pc protocolVersions.json](https://github.com/PrismarineJS/minecraft-data/commit/8a914067da3998bc8b84f41c33e3cf5fb8980599) (thanks @github-actions[bot])
+* [Update bedrock features.json to add `blockHashes`](https://github.com/PrismarineJS/reinarpg-data/commit/bf994a81894ab47cf031ecdc9dff7165ac89e56e) (thanks @extremeheat)
+* [Add 24w12a to pc protocolVersions.json](https://github.com/PrismarineJS/reinarpg-data/commit/8a914067da3998bc8b84f41c33e3cf5fb8980599) (thanks @github-actions[bot])
 
 ## 3.64.0
-* [Fixed 1.20.3 and 1.20.4 loginPacket version was set incorrectly on data/dataPaths.json (#853)](https://github.com/PrismarineJS/minecraft-data/commit/73679065860242acb6b8bf2692718700a1bd5c37) (thanks @n-qber)
-* [Added a resource pack UUID feature that 1.20.3 and later versions use. (#854)](https://github.com/PrismarineJS/minecraft-data/commit/90d6ddac514232e2b609ad6f71012d052210a833) (thanks @TerminalCalamitas)
-* [Add sounds files for majority of versions. (#839)](https://github.com/PrismarineJS/minecraft-data/commit/d9f4a0654fa980423ba4f182e443df15e70d018e) (thanks @wgaylord)
-* [Create ARCHITECTURE.md (#856)](https://github.com/PrismarineJS/minecraft-data/commit/03107f89d1d70df42f568fc4a2da33af48404d38) (thanks @extremeheat)
-* [Add 24w11a to pc protocolVersions.json](https://github.com/PrismarineJS/minecraft-data/commit/fe8ed241a4b141ed1fae58dd361597c9ee4581d9) (thanks @github-actions[bot])
+* [Fixed 1.20.3 and 1.20.4 loginPacket version was set incorrectly on data/dataPaths.json (#853)](https://github.com/PrismarineJS/reinarpg-data/commit/73679065860242acb6b8bf2692718700a1bd5c37) (thanks @n-qber)
+* [Added a resource pack UUID feature that 1.20.3 and later versions use. (#854)](https://github.com/PrismarineJS/reinarpg-data/commit/90d6ddac514232e2b609ad6f71012d052210a833) (thanks @TerminalCalamitas)
+* [Add sounds files for majority of versions. (#839)](https://github.com/PrismarineJS/reinarpg-data/commit/d9f4a0654fa980423ba4f182e443df15e70d018e) (thanks @wgaylord)
+* [Create ARCHITECTURE.md (#856)](https://github.com/PrismarineJS/reinarpg-data/commit/03107f89d1d70df42f568fc4a2da33af48404d38) (thanks @extremeheat)
+* [Add 24w11a to pc protocolVersions.json](https://github.com/PrismarineJS/reinarpg-data/commit/fe8ed241a4b141ed1fae58dd361597c9ee4581d9) (thanks @github-actions[bot])
 
 ## 3.63.0
-* [Add bedrock 1.20.71 protocol data (#858)](https://github.com/PrismarineJS/minecraft-data/commit/fc0aac53acb683cba83f3d692cbf053094f49108) (thanks @extremeheat)
-* [Add 24w10a to pc protocolVersions.json](https://github.com/PrismarineJS/minecraft-data/commit/97b1bafc5aab20bdff0bd0b4422ce868530b8806) (thanks @github-actions[bot])
-* [Add 24w09a to pc protocolVersions.json](https://github.com/PrismarineJS/minecraft-data/commit/882319614133edc9fc7a93649e285f752a303401) (thanks @github-actions[bot])
+* [Add bedrock 1.20.71 protocol data (#858)](https://github.com/PrismarineJS/reinarpg-data/commit/fc0aac53acb683cba83f3d692cbf053094f49108) (thanks @extremeheat)
+* [Add 24w10a to pc protocolVersions.json](https://github.com/PrismarineJS/reinarpg-data/commit/97b1bafc5aab20bdff0bd0b4422ce868530b8806) (thanks @github-actions[bot])
+* [Add 24w09a to pc protocolVersions.json](https://github.com/PrismarineJS/reinarpg-data/commit/882319614133edc9fc7a93649e285f752a303401) (thanks @github-actions[bot])
 
 ## 3.62.0
-* [Fix 1.20.2 and 1.20.3 Recipes, change docs to say to use Burger inste… (#843)](https://github.com/PrismarineJS/minecraft-data/commit/d47396ed1e8962fa0310bb603fc3ff4a4521b4f4) (thanks @wgaylord)
+* [Fix 1.20.2 and 1.20.3 Recipes, change docs to say to use Burger inste… (#843)](https://github.com/PrismarineJS/reinarpg-data/commit/d47396ed1e8962fa0310bb603fc3ff4a4521b4f4) (thanks @wgaylord)
 
 ## 3.61.2
-* [Add style to command param type enum in pc 1.20.3 protocol (#850)](https://github.com/PrismarineJS/minecraft-data/commit/4acaa9bd255951873eb11b12aca15a1079680d67) (thanks @extremeheat)
+* [Add style to command param type enum in pc 1.20.3 protocol (#850)](https://github.com/PrismarineJS/reinarpg-data/commit/4acaa9bd255951873eb11b12aca15a1079680d67) (thanks @extremeheat)
 
 ## 3.61.1
-* [[bedrock] Fix issue with player auth input data (#848)](https://github.com/PrismarineJS/minecraft-data/commit/985b2bef89e9642da1be90b825969a4818d5e5e8) (thanks @MrDiamond64)
-* [Add 24w07a to pc protocolVersions.json](https://github.com/PrismarineJS/minecraft-data/commit/4bf2ae5ccb7da0dc51898dbdd85cfbd04621fe07) (thanks @github-actions[bot])
+* [[bedrock] Fix issue with player auth input data (#848)](https://github.com/PrismarineJS/reinarpg-data/commit/985b2bef89e9642da1be90b825969a4818d5e5e8) (thanks @MrDiamond64)
+* [Add 24w07a to pc protocolVersions.json](https://github.com/PrismarineJS/reinarpg-data/commit/4bf2ae5ccb7da0dc51898dbdd85cfbd04621fe07) (thanks @github-actions[bot])
 
 ## 3.61.0
-* [Add bedrock 1.20.61 protocol data (#845)](https://github.com/PrismarineJS/minecraft-data/commit/b38e5da05d345d3c3af52466cf74167a94b1bb1a) (thanks @extremeheat)
-* [Add 24w06a to pc protocolVersions.json](https://github.com/PrismarineJS/minecraft-data/commit/5630ff7074903a6638dd6595315888d9585d0e59) (thanks @github-actions[bot])
-* [Add 24w05b to pc protocolVersions.json](https://github.com/PrismarineJS/minecraft-data/commit/ff68bc8540e582042af86edc5bf8ca98f8017f1d) (thanks @github-actions[bot])
-* [Add 24w05a to pc protocolVersions.json](https://github.com/PrismarineJS/minecraft-data/commit/f2bbe7b57103d4c0c274a6dbc06f34e1c3638fc1) (thanks @github-actions[bot])
+* [Add bedrock 1.20.61 protocol data (#845)](https://github.com/PrismarineJS/reinarpg-data/commit/b38e5da05d345d3c3af52466cf74167a94b1bb1a) (thanks @extremeheat)
+* [Add 24w06a to pc protocolVersions.json](https://github.com/PrismarineJS/reinarpg-data/commit/5630ff7074903a6638dd6595315888d9585d0e59) (thanks @github-actions[bot])
+* [Add 24w05b to pc protocolVersions.json](https://github.com/PrismarineJS/reinarpg-data/commit/ff68bc8540e582042af86edc5bf8ca98f8017f1d) (thanks @github-actions[bot])
+* [Add 24w05a to pc protocolVersions.json](https://github.com/PrismarineJS/reinarpg-data/commit/f2bbe7b57103d4c0c274a6dbc06f34e1c3638fc1) (thanks @github-actions[bot])
 
 ## 3.60.0
-* [Fix spelling on packet_configuration_acknowledged in all locations in 1.20.2 protocol.json (#841)](https://github.com/PrismarineJS/minecraft-data/commit/4b0ac882a3900525dbf6cc0f0a4ffb9234d3b029) (thanks @wgaylord)
-* [Add New Data Version - Doc update (#835)](https://github.com/PrismarineJS/minecraft-data/commit/c1b5113fc402966550050c326589524e7e606626) (thanks @wgaylord)
-* [Add 24w04a to pc protocolVersions.json](https://github.com/PrismarineJS/minecraft-data/commit/1c4cacac6874d513e8725833aa53f0772b0e12b7) (thanks @github-actions[bot])
-* [Add 24w03b to pc protocolVersions.json](https://github.com/PrismarineJS/minecraft-data/commit/3e9e68884fcaac7a15e87361fd793eab1d2d11ac) (thanks @github-actions[bot])
-* [Add 24w03a to pc protocolVersions.json](https://github.com/PrismarineJS/minecraft-data/commit/edddc84ce25fb34c6c92aa995adf158272915a9e) (thanks @github-actions[bot])
+* [Fix spelling on packet_configuration_acknowledged in all locations in 1.20.2 protocol.json (#841)](https://github.com/PrismarineJS/reinarpg-data/commit/4b0ac882a3900525dbf6cc0f0a4ffb9234d3b029) (thanks @wgaylord)
+* [Add New Data Version - Doc update (#835)](https://github.com/PrismarineJS/reinarpg-data/commit/c1b5113fc402966550050c326589524e7e606626) (thanks @wgaylord)
+* [Add 24w04a to pc protocolVersions.json](https://github.com/PrismarineJS/reinarpg-data/commit/1c4cacac6874d513e8725833aa53f0772b0e12b7) (thanks @github-actions[bot])
+* [Add 24w03b to pc protocolVersions.json](https://github.com/PrismarineJS/reinarpg-data/commit/3e9e68884fcaac7a15e87361fd793eab1d2d11ac) (thanks @github-actions[bot])
+* [Add 24w03a to pc protocolVersions.json](https://github.com/PrismarineJS/reinarpg-data/commit/edddc84ce25fb34c6c92aa995adf158272915a9e) (thanks @github-actions[bot])
 
 ## 3.59.3
-* [pc: add `chatPacketsUseNbtComponents` feature for 1.20.3](https://github.com/PrismarineJS/minecraft-data/commit/42d7ecc1aa70dd0d7683aada09aea8c498d1a1a5) (thanks @extremeheat)
+* [pc: add `chatPacketsUseNbtComponents` feature for 1.20.3](https://github.com/PrismarineJS/reinarpg-data/commit/42d7ecc1aa70dd0d7683aada09aea8c498d1a1a5) (thanks @extremeheat)
 
 ## 3.59.2
-* [Fix pc dimensionDataIsAvailable feature range](https://github.com/PrismarineJS/minecraft-data/commit/afd576f9b3cbedc4c2f7cbca1e849dc3760027b1) (thanks @extremeheat)
+* [Fix pc dimensionDataIsAvailable feature range](https://github.com/PrismarineJS/reinarpg-data/commit/afd576f9b3cbedc4c2f7cbca1e849dc3760027b1) (thanks @extremeheat)
 
 ## 3.59.1
-* [Add pc feature `unifiedPlayerAndEntitySpawnPacket`](https://github.com/PrismarineJS/minecraft-data/commit/bd3c9757d0f9d40c797024ed09c3a5e99e815b77) (thanks @extremeheat)
-* [Add an unicity test for features. (#824)](https://github.com/PrismarineJS/minecraft-data/commit/587a1341c83ef4fc1cf3353d35b09435a11f8217) (thanks @rom1504)
+* [Add pc feature `unifiedPlayerAndEntitySpawnPacket`](https://github.com/PrismarineJS/reinarpg-data/commit/bd3c9757d0f9d40c797024ed09c3a5e99e815b77) (thanks @extremeheat)
+* [Add an unicity test for features. (#824)](https://github.com/PrismarineJS/reinarpg-data/commit/587a1341c83ef4fc1cf3353d35b09435a11f8217) (thanks @rom1504)
 
 ## 3.59.0
-* [Fix breeze and wind charge being type player. (#826)](https://github.com/PrismarineJS/minecraft-data/commit/1792f0d8035aa275702b6080d4176ca14a3f578a) (thanks @wgaylord)
+* [Fix breeze and wind charge being type player. (#826)](https://github.com/PrismarineJS/reinarpg-data/commit/1792f0d8035aa275702b6080d4176ca14a3f578a) (thanks @wgaylord)
 
 ## 3.58.0
-* [Update flying-squid PC features (#823)](https://github.com/PrismarineJS/minecraft-data/commit/344619e053614d6ab5c97bf6477c99699ad57a46) (thanks @Pandapip1)
+* [Update flying-squid PC features (#823)](https://github.com/PrismarineJS/reinarpg-data/commit/344619e053614d6ab5c97bf6477c99699ad57a46) (thanks @Pandapip1)
 
 ## 3.57.0
-* [Add loginPacket for 1.20 / 1.20.1 (#821)](https://github.com/PrismarineJS/minecraft-data/commit/c508b6f7eec91724a830a71d663f90a141155330) (thanks @wgaylord)
+* [Add loginPacket for 1.20 / 1.20.1 (#821)](https://github.com/PrismarineJS/reinarpg-data/commit/c508b6f7eec91724a830a71d663f90a141155330) (thanks @wgaylord)
 
 ## 3.56.0
-* [Fix 1.20.2 and 1.20.3 metadata keys (#818)](https://github.com/PrismarineJS/minecraft-data/commit/7c65e2640ef7efad691ee9cbd22377c655e44c40) (thanks @wgaylord)
-* [node 18 (#709)](https://github.com/PrismarineJS/minecraft-data/commit/4360b8461f655b943271d8101660dfb544c477f9) (thanks @rom1504)
+* [Fix 1.20.2 and 1.20.3 metadata keys (#818)](https://github.com/PrismarineJS/reinarpg-data/commit/7c65e2640ef7efad691ee9cbd22377c655e44c40) (thanks @wgaylord)
+* [node 18 (#709)](https://github.com/PrismarineJS/reinarpg-data/commit/4360b8461f655b943271d8101660dfb544c477f9) (thanks @rom1504)
 
 ## 3.55.0
-* [Add missing seed field in 1.19 based on minecraft packet tests](https://github.com/PrismarineJS/minecraft-data/commit/5f9995a821311c9ac926a208f957bd76a468fe55) (thanks @rom1504)
+* [Add missing seed field in 1.19 based on minecraft packet tests](https://github.com/PrismarineJS/reinarpg-data/commit/5f9995a821311c9ac926a208f957bd76a468fe55) (thanks @rom1504)
 
 ## 3.54.0
-* [1.20.3-1.20.4 protocol (#806)](https://github.com/PrismarineJS/minecraft-data/commit/1aabc9c5fe190b41d12b08e10ff025c32b8107ed) (thanks @wgaylord)
+* [1.20.3-1.20.4 protocol (#806)](https://github.com/PrismarineJS/reinarpg-data/commit/1aabc9c5fe190b41d12b08e10ff025c32b8107ed) (thanks @wgaylord)
 
 ## 3.53.0
-* [1.20.2 Protocol fixes (#812)](https://github.com/PrismarineJS/minecraft-data/commit/d4c6ab37e8257e0e74875ac8920e43377911ffe6) (thanks @wgaylord)
+* [1.20.2 Protocol fixes (#812)](https://github.com/PrismarineJS/reinarpg-data/commit/d4c6ab37e8257e0e74875ac8920e43377911ffe6) (thanks @wgaylord)
 
 ## 3.52.0
-* [1.20.2: use new anonOptionalNbt and anonymousNbt types from prismarine-nbt, add loginPacket (#810)](https://github.com/PrismarineJS/minecraft-data/commit/15f860a55e2ea4c8a62c0eeeaaf05e30f9efb1ac) (thanks @extremeheat)
+* [1.20.2: use new anonOptionalNbt and anonymousNbt types from reinarpg-nbt, add loginPacket (#810)](https://github.com/PrismarineJS/reinarpg-data/commit/15f860a55e2ea4c8a62c0eeeaaf05e30f9efb1ac) (thanks @extremeheat)
 
 ## 3.51.0
-* [Fix bedrock recipe text encoding issue (#808)](https://github.com/PrismarineJS/minecraft-data/commit/900ebf212eb2b97fdbca3aa8527d2ec530a90f2b) (thanks @extremeheat)
-* [1.20.2 protocol: nbt data can have different root data types (#807)](https://github.com/PrismarineJS/minecraft-data/commit/37e288067964e403c29d1d2f72a4acc9a5b7ba52) (thanks @extremeheat)
-* [Add 23w51b to pc protocolVersions.json](https://github.com/PrismarineJS/minecraft-data/commit/f851a09e3042247d42ab4f2775f986d39b45b39e) (thanks @github-actions[bot])
-* [Add 1.20.3 and 1.20.4 extract-able data (#803)](https://github.com/PrismarineJS/minecraft-data/commit/b1088724d565819f1f1c8ae4931ca3b2fe609b3a) (thanks @wgaylord)
-* [Improve correctness of 1.8 item varieties data (#772)](https://github.com/PrismarineJS/minecraft-data/commit/cf23a7fa2561cbbbbddaf4adc63449d835ac8f74) (thanks @kaduvert)
-* [Fix 1.20.2 Recipes and add test to check for flipped door Fixed #804 (#805)](https://github.com/PrismarineJS/minecraft-data/commit/0ee510f07de8c72efd3634494ab850c9b550c8be) (thanks @wgaylord)
-* [Add 1.20.4 to pc protocolVersions.json](https://github.com/PrismarineJS/minecraft-data/commit/a63198b3cecdd5397949c49aa123484cce77ceb5) (thanks @github-actions[bot])
+* [Fix bedrock recipe text encoding issue (#808)](https://github.com/PrismarineJS/reinarpg-data/commit/900ebf212eb2b97fdbca3aa8527d2ec530a90f2b) (thanks @extremeheat)
+* [1.20.2 protocol: nbt data can have different root data types (#807)](https://github.com/PrismarineJS/reinarpg-data/commit/37e288067964e403c29d1d2f72a4acc9a5b7ba52) (thanks @extremeheat)
+* [Add 23w51b to pc protocolVersions.json](https://github.com/PrismarineJS/reinarpg-data/commit/f851a09e3042247d42ab4f2775f986d39b45b39e) (thanks @github-actions[bot])
+* [Add 1.20.3 and 1.20.4 extract-able data (#803)](https://github.com/PrismarineJS/reinarpg-data/commit/b1088724d565819f1f1c8ae4931ca3b2fe609b3a) (thanks @wgaylord)
+* [Improve correctness of 1.8 item varieties data (#772)](https://github.com/PrismarineJS/reinarpg-data/commit/cf23a7fa2561cbbbbddaf4adc63449d835ac8f74) (thanks @kaduvert)
+* [Fix 1.20.2 Recipes and add test to check for flipped door Fixed #804 (#805)](https://github.com/PrismarineJS/reinarpg-data/commit/0ee510f07de8c72efd3634494ab850c9b550c8be) (thanks @wgaylord)
+* [Add 1.20.4 to pc protocolVersions.json](https://github.com/PrismarineJS/reinarpg-data/commit/a63198b3cecdd5397949c49aa123484cce77ceb5) (thanks @github-actions[bot])
 
 ## 3.50.0
-* [Add bedrock 1.20.50 protocol data (#800)](https://github.com/PrismarineJS/minecraft-data/commit/3dd855a3c0e372daaa210fc698b8040dd693cae8) (thanks @extremeheat)
+* [Add bedrock 1.20.50 protocol data (#800)](https://github.com/PrismarineJS/reinarpg-data/commit/3dd855a3c0e372daaa210fc698b8040dd693cae8) (thanks @extremeheat)
 
 ## 3.49.1
 * Fix pc protocol web doc by removing stable-json-stringify
-* [Fixed inconsistency with 'unsignedChatContent' in 'player_chat' packet (#795)](https://github.com/PrismarineJS/minecraft-data/commit/6fc1bb638fb04afefab4ddfa7e736f3727a23004) (thanks @Ynfuien)
+* [Fixed inconsistency with 'unsignedChatContent' in 'player_chat' packet (#795)](https://github.com/PrismarineJS/reinarpg-data/commit/6fc1bb638fb04afefab4ddfa7e736f3727a23004) (thanks @Ynfuien)
 
 ## 3.49.0
-* [Add hasConfigurationState to features.json (#790)](https://github.com/PrismarineJS/minecraft-data/commit/4d190951873034034dfe9d7c7fb3d0475e24c33b) (thanks @wgaylord)
-* [Fix spelling issue and 1 packet field order change. (#793)](https://github.com/PrismarineJS/minecraft-data/commit/5a4d0a0834791b5b725923ac33c3532455539579) (thanks @wgaylord)
-* [Add 23w46a to pc protocolVersions.json](https://github.com/PrismarineJS/minecraft-data/commit/fb58a7c3d068d281b9c4d18d2cd840410d0cd635) (thanks @github-actions[bot])
-* [Add 23w45a to pc protocolVersions.json](https://github.com/PrismarineJS/minecraft-data/commit/cf8333fce886587364e6f510bca72a6e9d555da4) (thanks @github-actions[bot])
+* [Add hasConfigurationState to features.json (#790)](https://github.com/PrismarineJS/reinarpg-data/commit/4d190951873034034dfe9d7c7fb3d0475e24c33b) (thanks @wgaylord)
+* [Fix spelling issue and 1 packet field order change. (#793)](https://github.com/PrismarineJS/reinarpg-data/commit/5a4d0a0834791b5b725923ac33c3532455539579) (thanks @wgaylord)
+* [Add 23w46a to pc protocolVersions.json](https://github.com/PrismarineJS/reinarpg-data/commit/fb58a7c3d068d281b9c4d18d2cd840410d0cd635) (thanks @github-actions[bot])
+* [Add 23w45a to pc protocolVersions.json](https://github.com/PrismarineJS/reinarpg-data/commit/cf8333fce886587364e6f510bca72a6e9d555da4) (thanks @github-actions[bot])
 
 ## 3.48.0
-* [Add 1.20.2 to readme](https://github.com/PrismarineJS/minecraft-data/commit/c156c97cf249f0b5f27999b5282395156c177e37) (thanks @rom1504)
-* [Add 1.20.2 data (#786)](https://github.com/PrismarineJS/minecraft-data/commit/e60570b5b567f0e802133f02bf2e4e3ea912dded) (thanks @wgaylord)
-* [Add 23w44a to pc protocolVersions.json](https://github.com/PrismarineJS/minecraft-data/commit/6921a493648f721b9b2ebb3684464f11645d10b5) (thanks @github-actions[bot])
-* [Add 23w43b to pc protocolVersions.json](https://github.com/PrismarineJS/minecraft-data/commit/7b486716da6775f39bbaf755d090f135012b127b) (thanks @github-actions[bot])
+* [Add 1.20.2 to readme](https://github.com/PrismarineJS/reinarpg-data/commit/c156c97cf249f0b5f27999b5282395156c177e37) (thanks @rom1504)
+* [Add 1.20.2 data (#786)](https://github.com/PrismarineJS/reinarpg-data/commit/e60570b5b567f0e802133f02bf2e4e3ea912dded) (thanks @wgaylord)
+* [Add 23w44a to pc protocolVersions.json](https://github.com/PrismarineJS/reinarpg-data/commit/6921a493648f721b9b2ebb3684464f11645d10b5) (thanks @github-actions[bot])
+* [Add 23w43b to pc protocolVersions.json](https://github.com/PrismarineJS/reinarpg-data/commit/7b486716da6775f39bbaf755d090f135012b127b) (thanks @github-actions[bot])
 
 ## 3.47.0
-* [Add bedrock 1.20.40 protocol data (#784)](https://github.com/PrismarineJS/minecraft-data/commit/0c1d4e649a4755c3226dd93174249e9a75fde12c) (thanks @CreeperG16)
+* [Add bedrock 1.20.40 protocol data (#784)](https://github.com/PrismarineJS/reinarpg-data/commit/0c1d4e649a4755c3226dd93174249e9a75fde12c) (thanks @CreeperG16)
 
 ## 3.46.2
-* [Fix bedrock protocol CameraPresets packet(#782)](https://github.com/PrismarineJS/minecraft-data/commit/4139610a241411296a47723d6d978047c52cc7cf) (thanks @MrDiamond64)
-* [Update Minecraft wiki references (#781)](https://github.com/PrismarineJS/minecraft-data/commit/16aaf99c002125749dbcbf165e3ead15e104f7e8) (thanks @Spongecade)
-* [Add bedrock 1.20.15 data mapping (#778)](https://github.com/PrismarineJS/minecraft-data/commit/a2df4110718476dd9e6997f99ac419d2308c19bd) (thanks @irkmandeer)
+* [Fix bedrock protocol CameraPresets packet(#782)](https://github.com/PrismarineJS/reinarpg-data/commit/4139610a241411296a47723d6d978047c52cc7cf) (thanks @MrDiamond64)
+* [Update Minecraft wiki references (#781)](https://github.com/PrismarineJS/reinarpg-data/commit/16aaf99c002125749dbcbf165e3ead15e104f7e8) (thanks @Spongecade)
+* [Add bedrock 1.20.15 data mapping (#778)](https://github.com/PrismarineJS/reinarpg-data/commit/a2df4110718476dd9e6997f99ac419d2308c19bd) (thanks @irkmandeer)
 
 ## 3.46.1
-* [Revert "Change has_stack_id in bedrock Item to a boolean" (#776)](https://github.com/PrismarineJS/minecraft-data/commit/f7d70f0ee654e3d4f59354734b340ff00f794355) (thanks @extremeheat)
+* [Revert "Change has_stack_id in bedrock Item to a boolean" (#776)](https://github.com/PrismarineJS/reinarpg-data/commit/f7d70f0ee654e3d4f59354734b340ff00f794355) (thanks @extremeheat)
 
 ## 3.46.0
-* [Add bedrock 1.20.30 protocol data (#774)](https://github.com/PrismarineJS/minecraft-data/commit/dd5f730dd8b930cc1d6dc6a7f464a020064f160d) (thanks @extremeheat)
-* [Update bedrock protocol data for has_stack_id in Item to a boolean (#770)](https://github.com/PrismarineJS/minecraft-data/commit/3928388ae32e44558cc342a888d95278a8a1ac70) (thanks @CreeperG16)
+* [Add bedrock 1.20.30 protocol data (#774)](https://github.com/PrismarineJS/reinarpg-data/commit/dd5f730dd8b930cc1d6dc6a7f464a020064f160d) (thanks @extremeheat)
+* [Update bedrock protocol data for has_stack_id in Item to a boolean (#770)](https://github.com/PrismarineJS/reinarpg-data/commit/3928388ae32e44558cc342a888d95278a8a1ac70) (thanks @CreeperG16)
 * Update protocolVersions.json
 
 ## 3.45.0
-* [add features for prismarine chunk (#763)](https://github.com/PrismarineJS/minecraft-data/commit/1b9380edb159721bef2342d4214b0ebb3128c812) (thanks @extremeheat)
-* [1.20 block data fixes (#766)](https://github.com/PrismarineJS/minecraft-data/commit/b130830580ea0cc5551cd736bdc139ac79d3eba7) (thanks @MathiasElgaard)
-* [Handle snapshots in update checking workflow (#767)](https://github.com/PrismarineJS/minecraft-data/commit/b5037850d0f3abf77b2197535b042e23d012aad6) (thanks @extremeheat)
+* [add features for prismarine chunk (#763)](https://github.com/PrismarineJS/reinarpg-data/commit/1b9380edb159721bef2342d4214b0ebb3128c812) (thanks @extremeheat)
+* [1.20 block data fixes (#766)](https://github.com/PrismarineJS/reinarpg-data/commit/b130830580ea0cc5551cd736bdc139ac79d3eba7) (thanks @MathiasElgaard)
+* [Handle snapshots in update checking workflow (#767)](https://github.com/PrismarineJS/reinarpg-data/commit/b5037850d0f3abf77b2197535b042e23d012aad6) (thanks @extremeheat)
 
 ## 3.44.0
-* [Elytra support (#761)](https://github.com/PrismarineJS/minecraft-data/commit/72a267757b8fbb8462f3c3f25001754af9d1f7c4) (thanks @lkwilson)
-* [Bedrock stack and request network id fix for 1.16.220 to 1.20.10 (#762)](https://github.com/PrismarineJS/minecraft-data/commit/7f144de36862de3dfe16b8b6272fcbd286327e16) (thanks @irkmandeer)
-* [1.19.4 protocol fixes (#759)](https://github.com/PrismarineJS/minecraft-data/commit/5c7e7960270ef329f7c9e037d08adbf5ae2ba3d6) (thanks @frej4189)
+* [Elytra support (#761)](https://github.com/PrismarineJS/reinarpg-data/commit/72a267757b8fbb8462f3c3f25001754af9d1f7c4) (thanks @lkwilson)
+* [Bedrock stack and request network id fix for 1.16.220 to 1.20.10 (#762)](https://github.com/PrismarineJS/reinarpg-data/commit/7f144de36862de3dfe16b8b6272fcbd286327e16) (thanks @irkmandeer)
+* [1.19.4 protocol fixes (#759)](https://github.com/PrismarineJS/reinarpg-data/commit/5c7e7960270ef329f7c9e037d08adbf5ae2ba3d6) (thanks @frej4189)
 
 ## 3.43.1
-* [Fix bedrock update_soft_enum packet missing encoding (#758)](https://github.com/PrismarineJS/minecraft-data/commit/d58b99fec41b8c23820168228cca9e86d1f45165) (thanks @JSbETms)
+* [Fix bedrock update_soft_enum packet missing encoding (#758)](https://github.com/PrismarineJS/reinarpg-data/commit/d58b99fec41b8c23820168228cca9e86d1f45165) (thanks @JSbETms)
 
 ## 3.43.0
-* [Add legacy.json flattening mappings for bedrock blocks (#755)](https://github.com/PrismarineJS/minecraft-data/commit/60682082d2dda5d5e7827ae908236dc1fbd8b79d) (thanks @Flonja)
+* [Add legacy.json flattening mappings for bedrock blocks (#755)](https://github.com/PrismarineJS/reinarpg-data/commit/60682082d2dda5d5e7827ae908236dc1fbd8b79d) (thanks @Flonja)
 
 ## 3.42.1
-* [Sync itemDrop object types in blockLoot_schema and entityLoot_schema (#753)](https://github.com/PrismarineJS/minecraft-data/commit/9fc22eeab83e41cedb2fc1bbb225d4d3368280bc) (thanks @extremeheat)
+* [Sync itemDrop object types in blockLoot_schema and entityLoot_schema (#753)](https://github.com/PrismarineJS/reinarpg-data/commit/9fc22eeab83e41cedb2fc1bbb225d4d3368280bc) (thanks @extremeheat)
 
 ## 3.42.0
-* [Fix bedrock packet_education_settings field (#751)](https://github.com/PrismarineJS/minecraft-data/commit/25496b14e0176850f39ceadc134962e5f08922e2) (thanks @extremeheat)
-* [Bedrock hotbar_slot type fix for 1.16.220 to 1.20.10 (#748)](https://github.com/PrismarineJS/minecraft-data/commit/1c5fb1f2517386b546c77b43e7f164943a338efa) (thanks @irkmandeer)
-* [Bedrock 1.20.0 block, biome and item data (#747)](https://github.com/PrismarineJS/minecraft-data/commit/fecc3e9e55a03ee84195099cf821140e56b65844) (thanks @CreeperG16)
-* [fix: correct schema types (#746)](https://github.com/PrismarineJS/minecraft-data/commit/7428c8522f23d6049d3246653fb2f366ae1faba9) (thanks @Eejit43)
-* [Add bedrock language data (#743)](https://github.com/PrismarineJS/minecraft-data/commit/d34a2f4654f5429aa36bc6be23f2b0acc7dfb2a9) (thanks @CreeperG16)
+* [Fix bedrock packet_education_settings field (#751)](https://github.com/PrismarineJS/reinarpg-data/commit/25496b14e0176850f39ceadc134962e5f08922e2) (thanks @extremeheat)
+* [Bedrock hotbar_slot type fix for 1.16.220 to 1.20.10 (#748)](https://github.com/PrismarineJS/reinarpg-data/commit/1c5fb1f2517386b546c77b43e7f164943a338efa) (thanks @irkmandeer)
+* [Bedrock 1.20.0 block, biome and item data (#747)](https://github.com/PrismarineJS/reinarpg-data/commit/fecc3e9e55a03ee84195099cf821140e56b65844) (thanks @CreeperG16)
+* [fix: correct schema types (#746)](https://github.com/PrismarineJS/reinarpg-data/commit/7428c8522f23d6049d3246653fb2f366ae1faba9) (thanks @Eejit43)
+* [Add bedrock language data (#743)](https://github.com/PrismarineJS/reinarpg-data/commit/d34a2f4654f5429aa36bc6be23f2b0acc7dfb2a9) (thanks @CreeperG16)
 
 ## 3.41.0
-* [Add explicitMaxDurability feature (#744)](https://github.com/PrismarineJS/minecraft-data/commit/e9bea106cda498671c11d62d2bb9d22accd7551a) (thanks @frej4189)
-* [Update attributes schema, add bedrock data (#692)](https://github.com/PrismarineJS/minecraft-data/commit/fa4c64ea7c144bced0560b9b06c6eee2a25991f6) (thanks @extremeheat)
-* [Fix values for enum type in available_commands packet (#742)](https://github.com/PrismarineJS/minecraft-data/commit/b04d0940925247e7aa45434094eb7b4b119322f1) (thanks @CreeperG16)
-* [fix `command_node` (#740)](https://github.com/PrismarineJS/minecraft-data/commit/099a80ddad349bb15ff4c02407a233a555a8a83d) (thanks @Nickid2018)
-* [Particle changes (#739)](https://github.com/PrismarineJS/minecraft-data/commit/787107dd4da145babde00d8708bb714f445d008f) (thanks @PondWader)
-* [damage_event packet fix (#738)](https://github.com/PrismarineJS/minecraft-data/commit/37015f4fad97a9b2a91333b38bc22c4b6f5909e7) (thanks @PondWader)
+* [Add explicitMaxDurability feature (#744)](https://github.com/PrismarineJS/reinarpg-data/commit/e9bea106cda498671c11d62d2bb9d22accd7551a) (thanks @frej4189)
+* [Update attributes schema, add bedrock data (#692)](https://github.com/PrismarineJS/reinarpg-data/commit/fa4c64ea7c144bced0560b9b06c6eee2a25991f6) (thanks @extremeheat)
+* [Fix values for enum type in available_commands packet (#742)](https://github.com/PrismarineJS/reinarpg-data/commit/b04d0940925247e7aa45434094eb7b4b119322f1) (thanks @CreeperG16)
+* [fix `command_node` (#740)](https://github.com/PrismarineJS/reinarpg-data/commit/099a80ddad349bb15ff4c02407a233a555a8a83d) (thanks @Nickid2018)
+* [Particle changes (#739)](https://github.com/PrismarineJS/reinarpg-data/commit/787107dd4da145babde00d8708bb714f445d008f) (thanks @PondWader)
+* [damage_event packet fix (#738)](https://github.com/PrismarineJS/reinarpg-data/commit/37015f4fad97a9b2a91333b38bc22c4b6f5909e7) (thanks @PondWader)
 
 ## 3.40.0
-* [Bedrock 1.20.10 protocol support (#734)](https://github.com/PrismarineJS/minecraft-data/commit/fa521866fb2c50af30d072413b2a12a5a2a5eb45) (thanks @CreeperG16)
-* [Changes to 1.19.3, 1.19.4 and 1.20 protocols to fix packet_entity_sound_effect and packet_sound_effect to include optional soundEvent argument (#731)](https://github.com/PrismarineJS/minecraft-data/commit/8ab8476ae6da4a0d1f86c30bfc2120b7d417426b) (thanks @TheRedXD)
-* [Bedrock protocol changes (#730)](https://github.com/PrismarineJS/minecraft-data/commit/f00c2ccc5a0763bc04db48705772df58158cf0dd) (thanks @irkmandeer)
-* [Fixed typo in dataPaths.json for bedrock 1.19.21 (#726)](https://github.com/PrismarineJS/minecraft-data/commit/8f1ba18c79b4e1adffa4079739cb3663bdeca792) (thanks @irkmandeer)
+* [Bedrock 1.20.10 protocol support (#734)](https://github.com/PrismarineJS/reinarpg-data/commit/fa521866fb2c50af30d072413b2a12a5a2a5eb45) (thanks @CreeperG16)
+* [Changes to 1.19.3, 1.19.4 and 1.20 protocols to fix packet_entity_sound_effect and packet_sound_effect to include optional soundEvent argument (#731)](https://github.com/PrismarineJS/reinarpg-data/commit/8ab8476ae6da4a0d1f86c30bfc2120b7d417426b) (thanks @TheRedXD)
+* [Bedrock protocol changes (#730)](https://github.com/PrismarineJS/reinarpg-data/commit/f00c2ccc5a0763bc04db48705772df58158cf0dd) (thanks @irkmandeer)
+* [Fixed typo in dataPaths.json for bedrock 1.19.21 (#726)](https://github.com/PrismarineJS/reinarpg-data/commit/8f1ba18c79b4e1adffa4079739cb3663bdeca792) (thanks @irkmandeer)
 
 ## 3.39.0
-* [Add commands workflow (#727)](https://github.com/PrismarineJS/minecraft-data/commit/ecc33128220bdb20dc813b484d5374a9bdd26d40) (thanks @extremeheat)
-* [bedrock: Fix chunk request packet field in protocol (#725)](https://github.com/PrismarineJS/minecraft-data/commit/57e5888d8876a16a6011757065a1e7494ac25483) (thanks @irkmandeer)
+* [Add commands workflow (#727)](https://github.com/PrismarineJS/reinarpg-data/commit/ecc33128220bdb20dc813b484d5374a9bdd26d40) (thanks @extremeheat)
+* [bedrock: Fix chunk request packet field in protocol (#725)](https://github.com/PrismarineJS/reinarpg-data/commit/57e5888d8876a16a6011757065a1e7494ac25483) (thanks @irkmandeer)
 
 ## 3.38.0
 * pc: Add "multiSidedSigns" feature + some missing data (@PondWader)
@@ -305,7 +305,7 @@
 
 ## 3.10.1
 
-* node-minecraft-data release
+* node-reinarpg-data release
 
 ## 3.10.0
 
@@ -911,7 +911,7 @@
  * import protocol.json from node-minecraft-protocol for version 1.8 of minecraft
 
 ## 0.3.0
- * remove id indexing from biomes, blocks, entities, items and instruments : let users (for examples node-minecraft-data) provide their indexing (by id, name,...)
+ * remove id indexing from biomes, blocks, entities, items and instruments : let users (for examples node-reinarpg-data) provide their indexing (by id, name,...)
 
 ## 0.2.1
  * entities is now in the API

@@ -1,4 +1,4 @@
-## minecraft-data architecture
+## reinarpg-data architecture
 Key Details:
 * Langauge independent repository holding data for many Minecraft versions, including Java Edition versions after 1.7 and Bedrock Edition versions after 1.16
 * Has data on blocks, items, network protocol packet structures, entities and more
@@ -12,7 +12,7 @@ File Structure:
 * `tools/js` contains Node.js scripts to do maintenance on the repository, such as running tests to ensure data validity and also contains some files used to generate data inside the repository.
 
 Usage:
-* As documented in the README.md, there exist several wrappers that expose the data inside minecraft-data. Notably, this includes PrismarineJS/node-minecraft-data, which exposes the data as a NPM package. 
+* As documented in the README.md, there exist several wrappers that expose the data inside reinarpg-data. Notably, this includes PrismarineJS/node-reinarpg-data, which exposes the data as a NPM package. 
 
 Contributing Tips:
 * Files should generally be obtained with the use of a data extractor or generator, as mentioned above

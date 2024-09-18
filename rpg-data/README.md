@@ -1,9 +1,9 @@
-# minecraft-data
+# reinarpg-data
 
 [![Discord](https://img.shields.io/badge/chat-on%20discord-brightgreen.svg)](https://discord.gg/GsEFRM8)
 [![Gitter](https://img.shields.io/badge/chat-on%20gitter-brightgreen.svg)](https://gitter.im/PrismarineJS/general)
 [![Irc](https://img.shields.io/badge/chat-on%20irc-brightgreen.svg)](https://irc.gitter.im/)
-[![Build Status](https://github.com/PrismarineJS/minecraft-data/workflows/CI/badge.svg)](https://github.com/PrismarineJS/minecraft-data/actions?query=workflow%3A%22CI%22)
+[![Build Status](https://github.com/PrismarineJS/reinarpg-data/workflows/CI/badge.svg)](https://github.com/PrismarineJS/reinarpg-data/actions?query=workflow%3A%22CI%22)
 
 Language independent module providing minecraft data for minecraft clients, servers and libraries.
 
@@ -15,18 +15,18 @@ Supports
 
 ## Wrappers
 
-Minecraft-data is language independent, you can use it with these language specific modules :
+reinarpg-data is language independent, you can use it with these language specific modules :
 
 | Wrapper name | Language | Data provided |
 | --- | --- | --- |
-| [node-minecraft-data](https://github.com/PrismarineJS/node-minecraft-data) | Node.js | everything |
-| [python-minecraft-data](https://github.com/SpockBotMC/python-minecraft-data) | python | everything |
+| [node-reinarpg-data](https://github.com/PrismarineJS/node-reinarpg-data) | Node.js | everything |
+| [python-reinarpg-data](https://github.com/SpockBotMC/python-reinarpg-data) | python | everything |
 | [McData](https://github.com/McEx/McData) | Elixir | protocol |
 | [ProtocolGen](https://github.com/Johni0702/ProtocolGen) | java | generated java files from protocol.json to read and write minecraft packets |
 | [mcdata](https://github.com/wlwanpan/mcdata) | Go | everything |
-| [minecraft-data-rs](https://github.com/Trivernis/minecraft-data-rs) | Rust | everything |
+| [reinarpg-data-rs](https://github.com/Trivernis/reinarpg-data-rs) | Rust | everything |
 
-If you want to use minecraft-data in a new language, we advise you to [create a new wrapper](doc/make-a-new-wrapper.md)
+If you want to use reinarpg-data in a new language, we advise you to [create a new wrapper](doc/make-a-new-wrapper.md)
 
 ## Data
 
@@ -50,7 +50,7 @@ Data provided:
 | Recipes | to be used with blocks and items data |
 | Windows | the different kind of windows and their characteristics |
 | Version | |
-| Versions | all the versions supported in minecraft-data |
+| Versions | all the versions supported in reinarpg-data |
 | Block collision shapes | |
 | Foods | list of foods each with there id, saturation, foodpoints and more |
 | Commands | a tree structure for vanilla minecraft server commands, and some info needed to implement sub-parsers.
@@ -59,17 +59,17 @@ Data provided:
 | Features | This can be used to check is a specific feature is available in the current Minecraft version. This is usually only required for handling version-specific functionality.
 | Sounds | For versions that use a sound id over the network (1.9+) this provides mappings between network sound id and sound name. 
 
-See more information about this data in the [documentation](http://prismarinejs.github.io/minecraft-data/)
+See more information about this data in the [documentation](http://prismarinejs.github.io/reinarpg-data/)
 
 ## Documentation
 
  * See [doc/history.md](doc/history.md)
- * [Documentation generated using the json schemas and docson](http://prismarinejs.github.io/minecraft-data)
+ * [Documentation generated using the json schemas and docson](http://prismarinejs.github.io/reinarpg-data)
  * [Textual documentation of the recipe format](doc/recipes.md)
 
-## Projects using minecraft-data
+## Projects using reinarpg-data
 
-These are the projects that use minecraft-data:
+These are the projects that use reinarpg-data:
 
 | Project name | Language | Project type | Data used |
 | --- | --- | --- | --- |
@@ -85,8 +85,8 @@ These are the projects that use minecraft-data:
 
 ## Extraction
 
-The recommended way to extract the data is documented at [add-data-new-version.md](https://github.com/PrismarineJS/minecraft-data/blob/master/doc/add-data-new-version.md).
-Specifically, [minecraft-data-auto-updater](https://github.com/PrismarineJS/minecraft-data-auto-updater) calls [minecraft-data-generator-server](https://github.com/PrismarineJS/minecraft-data-generator-server)
+The recommended way to extract the data is documented at [add-data-new-version.md](https://github.com/PrismarineJS/reinarpg-data/blob/master/doc/add-data-new-version.md).
+Specifically, [reinarpg-data-auto-updater](https://github.com/PrismarineJS/reinarpg-data-auto-updater) calls [reinarpg-data-generator-server](https://github.com/PrismarineJS/reinarpg-data-generator-server)
 
 Projects that provide data:
 
@@ -100,7 +100,7 @@ Projects that provide data:
 | [burger](https://github.com/mcdevs/Burger) with [burger-extractor](https://github.com/PrismarineJS/burger-extractor) | Node.js | minecraft server jar | used to provide items, blocks, biomes and recipes |
 | [burger 1.16](https://github.com/Pokechu22/Burger/tree/1.16-dev)  | --//-- | --// -- | --//-- |
 | [command-generator](https://github.com/Miro-Andrin/mc-data-command-generator) | Python | [Minecraft data generator](https://wiki.vg/Data_Generators) | Data used for parsing all vanilla server commands. |
-| [minecraft-data-generator](https://github.com/Archengius/minecraft-data-generator) | Java | minecraft client | biomes, block collision shapes, blocks, effects, enchantments, entities, foods, items, particles, tints. Required Fabric updated to the provided minecraft version. |
+| [reinarpg-data-generator](https://github.com/Archengius/reinarpg-data-generator) | Java | minecraft client | biomes, block collision shapes, blocks, effects, enchantments, entities, foods, items, particles, tints. Required Fabric updated to the provided minecraft version. |
 
 
 Pages interesting to manually update the data if necessary:
