@@ -1145,7 +1145,7 @@
 
 ## 0.15.0
 
-* make node-rpg-data browserify compatible
+* make rpg-data browserify compatible
 
 ## 0.14.0
 

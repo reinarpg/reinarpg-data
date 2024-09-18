@@ -20,20 +20,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:PrismarineJS/node-rpg-data.git"
+    "url": "git@github.com:reinarpg/reinarpg-data.git"
   },
   "keywords": [
     "minecraft",
     "data",
     "node.js"
   ],
-  "author": "Romain Beaumont <romain.rom1@gmail.com>",
+  "author": "Rauf Şen <raufsen11@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PrismarineJS/node-rpg-data/issues"
+    "url": "https://github.com/reinarpg/reinarpg-data/issues"
   },
   "devDependencies": {
-    "rpg-data": ".",
+    "rpg-data": "link:.",
     "@types/node": "^22.1.0",
     "json-schema-to-typescript": "11.0.5",
     "minecraft-packets": "^1.4.0",

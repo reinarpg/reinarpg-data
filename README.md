@@ -2,8 +2,8 @@
 
 [![NPM version](https://badge.fury.io/js/rpg-data.svg)](http://badge.fury.io/js/rpg-data)
 [![Tonic](https://img.shields.io/badge/tonic-try%20it-blue.svg)](https://tonicdev.com/npm/rpg-data)
-[![Build Status](https://github.com/PrismarineJS/node-rpg-data/workflows/CI/badge.svg)](https://github.com/PrismarineJS/node-rpg-data/actions?query=workflow%3A%22CI%22)
-[![Try it on gitpod](https://img.shields.io/badge/try-on%20gitpod-brightgreen.svg)](https://gitpod.io/#https://github.com/PrismarineJS/node-rpg-data)
+[![Build Status](https://github.com/reinarpg/reinarpg-data/workflows/CI/badge.svg)](https://github.com/reinarpg/reinarpg-data/actions?query=workflow%3A%22CI%22)
+[![Try it on gitpod](https://img.shields.io/badge/try-on%20gitpod-brightgreen.svg)](https://gitpod.io/#https://github.com/reinarpg/reinarpg-data)
 
 `node-rpg-data` provides easy access to [rpg-data](https://github.com/PrismarineJS/rpg-data) in node.js.
 
