@@ -5,7 +5,7 @@
 // function test (version) {
 //   console.log('->', version)
 //   const packet = packets[version]['from-server']
-//   const mcd = require('minecraft-data')('bedrock_' + version)
+//   const mcd = require('rpg-data')('bedrock_' + version)
 //   if (!mcd.items) {
 //     console.log(`Don't have data for '${version}', skipping`)
 //     return

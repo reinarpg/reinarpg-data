@@ -3,37 +3,37 @@ const assert = require('assert')
 
 describe('load', () => {
   it('loads the lib', () => {
-    require('minecraft-data')
+    require('rpg-data')
     require('../example')
   })
   it('run the example', () => {
     require('../example')
   })
   it('newerOrEqualTo', () => {
-    const mcData = require('minecraft-data')('1.13.2')
+    const mcData = require('rpg-data')('1.13.2')
     assert.strictEqual(mcData.isNewerOrEqualTo('1.13'), true)
     assert.strictEqual(mcData.isOlderThan('1.14'), true)
     assert.strictEqual(mcData.isOlderThan('1.13'), false)
     assert.strictEqual(mcData.isNewerOrEqualTo('1.14'), false)
     assert.strictEqual(mcData.isNewerOrEqualTo('1.1'), true)
 
-    const firstDataVersion = require('minecraft-data')('15w32a') // dataVersion = 100
+    const firstDataVersion = require('rpg-data')('15w32a') // dataVersion = 100
     assert.strictEqual(firstDataVersion.isNewerOrEqualTo('15w31c'), true) // no dataVersion
 
-    const mcData188 = require('minecraft-data')('1.8.8')
+    const mcData188 = require('rpg-data')('1.8.8')
     assert.strictEqual(mcData188.isNewerOrEqualTo('1.8'), true, '1.8.8>1.8')
 
-    const mcDataBedrock1Dot7Dot10 = require('minecraft-data')('bedrock_1.17.10')
+    const mcDataBedrock1Dot7Dot10 = require('rpg-data')('bedrock_1.17.10')
     assert.strictEqual(mcDataBedrock1Dot7Dot10.isNewerOrEqualTo('1.17'), true, '1.17.10>1.17')
 
-    const bedrock16220 = require('minecraft-data')('bedrock_1.16.220')
+    const bedrock16220 = require('rpg-data')('bedrock_1.16.220')
     assert.strictEqual(bedrock16220.isNewerOrEqualTo('1.16.210'), true, 'bedrock_1.16.220>bedrock_1.16.210')
   })
 })
 
 describe('versions with block data have block state IDs', () => {
-  const mcData = require('minecraft-data')
-  const versions = require('minecraft-data').versions
+  const mcData = require('rpg-data')
+  const versions = require('rpg-data').versions
   let oks = 0
   for (const type in versions) {
     for (const version of versions[type]) {
@@ -56,8 +56,8 @@ describe('versions with block data have block state IDs', () => {
 
 describe('supportFeature', () => {
   it('dimensionIsAnInt is only accessible in 1.8 - 1.15.2', () => {
-    const mcData1Dot9 = require('minecraft-data')('1.9')
-    const mcData1Dot17 = require('minecraft-data')('1.17')
+    const mcData1Dot9 = require('rpg-data')('1.9')
+    const mcData1Dot17 = require('rpg-data')('1.17')
     assert.equal(mcData1Dot9.supportFeature('dimensionIsAnInt'), true)
     assert.equal(mcData1Dot17.supportFeature('dimensionIsAnInt'), false)
   })
@@ -76,27 +76,27 @@ describe('supportFeature', () => {
       1.8: 8
     }
     for (const [k, v] of Object.entries(assertions)) {
-      const mcData = require('minecraft-data')(k)
+      const mcData = require('rpg-data')(k)
       const newVal = mcData.supportFeature('metadataIxOfItem')
       assert.equal(newVal, v, `Failed on mc version ${k} | Expected: ${v}, Got: ${newVal}`)
     }
   })
 
   it('handles "_major" correctly on itemSerializationUsesBlockId', function () {
-    const mcData1Dot9 = require('minecraft-data')('1.9')
-    const mcData1Dot17 = require('minecraft-data')('1.12.2')
+    const mcData1Dot9 = require('rpg-data')('1.9')
+    const mcData1Dot17 = require('rpg-data')('1.12.2')
     assert.equal(mcData1Dot9.supportFeature('itemSerializationUsesBlockId'), true)
     assert.equal(mcData1Dot17.supportFeature('itemSerializationUsesBlockId'), true)
   })
 
   it('works on bedrock 1.18.0', function () {
-    const mcData = require('minecraft-data')('bedrock_1.18.0')
+    const mcData = require('rpg-data')('bedrock_1.18.0')
     assert.equal(mcData.supportFeature('newRecipeSchema'), true)
     assert.equal(mcData.supportFeature('fakeRecipeSchema'), false)
   })
 
   it('works on bedrock 1.19.1', function () {
-    const mcData = require('minecraft-data')('bedrock_1.19.1')
+    const mcData = require('rpg-data')('bedrock_1.19.1')
     assert.equal(mcData.supportFeature('newRecipeSchema'), true)
     assert.equal(mcData.supportFeature('fakeRecipeSchema'), false)
     assert(mcData.blockMappings.length > 0)

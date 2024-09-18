@@ -1,13 +1,13 @@
-# node-minecraft-data
+# node-rpg-data
 
-[![NPM version](https://badge.fury.io/js/minecraft-data.svg)](http://badge.fury.io/js/minecraft-data)
-[![Tonic](https://img.shields.io/badge/tonic-try%20it-blue.svg)](https://tonicdev.com/npm/minecraft-data)
-[![Build Status](https://github.com/PrismarineJS/node-minecraft-data/workflows/CI/badge.svg)](https://github.com/PrismarineJS/node-minecraft-data/actions?query=workflow%3A%22CI%22)
-[![Try it on gitpod](https://img.shields.io/badge/try-on%20gitpod-brightgreen.svg)](https://gitpod.io/#https://github.com/PrismarineJS/node-minecraft-data)
+[![NPM version](https://badge.fury.io/js/rpg-data.svg)](http://badge.fury.io/js/rpg-data)
+[![Tonic](https://img.shields.io/badge/tonic-try%20it-blue.svg)](https://tonicdev.com/npm/rpg-data)
+[![Build Status](https://github.com/PrismarineJS/node-rpg-data/workflows/CI/badge.svg)](https://github.com/PrismarineJS/node-rpg-data/actions?query=workflow%3A%22CI%22)
+[![Try it on gitpod](https://img.shields.io/badge/try-on%20gitpod-brightgreen.svg)](https://gitpod.io/#https://github.com/PrismarineJS/node-rpg-data)
 
-`node-minecraft-data` provides easy access to [minecraft-data](https://github.com/PrismarineJS/minecraft-data) in node.js.
+`node-rpg-data` provides easy access to [rpg-data](https://github.com/PrismarineJS/rpg-data) in node.js.
 
-The objective of this module is to make easier to look for information in `minecraft-data` in node.
+The objective of this module is to make easier to look for information in `rpg-data` in node.
 
 ## Features
 
@@ -16,8 +16,8 @@ This package allows the lookup of blocks, items, entities, etc. by name, id, etc
 ## Example
 
 ```js
-const minecraftData = require('minecraft-data')
-// or for es6: import minecraftData from 'minecraft-data';
+const minecraftData = require('rpg-data')
+// or for es6: import minecraftData from 'rpg-data';
 
 const mcData = minecraftData('1.19')
 
