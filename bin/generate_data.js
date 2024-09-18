@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const dataSource = require('../minecraft-data/data/dataPaths')
+const dataSource = require('../rpg-data/data/dataPaths')
 const fs = require('fs')
 const path = require('path')
 
@@ -13,7 +13,7 @@ const data = 'module.exports =\n{\n' + Object
         "    '" + k2 + "': {" + '\n' + Object
           .keys(dataSource[k1][k2])
           .map(k3 => {
-            const loc = `minecraft-data/data/${dataSource[k1][k2][k3]}/`
+            const loc = `rpg-data/data/${dataSource[k1][k2][k3]}/`
             try {
               // Check if the file can be loaded as JSON
               require('../' + loc + k3 + '.json')

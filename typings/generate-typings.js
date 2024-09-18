@@ -1,7 +1,7 @@
 const { compileFromFile } = require('json-schema-to-typescript')
 const path = require('path')
 const fs = require('fs')
-const features = require('../minecraft-data/data/pc/common/features.json')
+const features = require('../rpg-data/data/pc/common/features.json')
 
 const templateTypings = fs.readFileSync(path.resolve(__dirname, './index-template.d.ts'), 'utf8')
 
@@ -22,7 +22,7 @@ async function generate () {
   let typingString = 'declare namespace MinecraftData {\n\n'
   typingString += (
     await Promise.all(
-      walkSync(path.resolve(__dirname, '../minecraft-data/schemas')).map(async (schemaPath) => {
+      walkSync(path.resolve(__dirname, '../rpg-data/schemas')).map(async (schemaPath) => {
         if (schemaPath.includes('protocol_types')) return
         return (await compileFromFile(schemaPath, { bannerComment: '' })).replace(/export /g, '')
       })
