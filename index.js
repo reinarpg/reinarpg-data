@@ -2,8 +2,8 @@ const mcDataToNode = require('./lib/loader')
 const supportFeature = require('./lib/supportsFeature')
 const indexer = require('./lib/indexer.js')
 const protocolVersions = {
-  pc: require('./minecraft-data/data/pc/common/protocolVersions.json'),
-  bedrock: require('./minecraft-data/data/bedrock/common/protocolVersions.json')
+  pc: require('./rpg-data/data/pc/common/protocolVersions.json'),
+  bedrock: require('./rpg-data/data/bedrock/common/protocolVersions.json')
 }
 const versionsByMinecraftVersion = {}
 const versionsByMajorVersion = {}
@@ -99,35 +99,35 @@ function toMajor (mcVersion, preNetty, typeArg) {
 }
 
 module.exports.supportedVersions = {
-  pc: require('./minecraft-data/data/pc/common/versions.json'),
-  bedrock: require('./minecraft-data/data/bedrock/common/versions.json')
+  pc: require('./rpg-data/data/pc/common/versions.json'),
+  bedrock: require('./rpg-data/data/bedrock/common/versions.json')
 }
 module.exports.versions = protocolVersions
 module.exports.versionsByMinecraftVersion = versionsByMinecraftVersion
 module.exports.preNettyVersionsByProtocolVersion = preNettyVersionsByProtocolVersion
 module.exports.postNettyVersionsByProtocolVersion = postNettyVersionsByProtocolVersion
 module.exports.legacy = {
-  pc: require('./minecraft-data/data/pc/common/legacy.json'),
-  bedrock: require('./minecraft-data/data/bedrock/common/legacy.json')
+  pc: require('./rpg-data/data/pc/common/legacy.json'),
+  bedrock: require('./rpg-data/data/bedrock/common/legacy.json')
 }
 
 const schemas = {
-  biomes: require('./minecraft-data/schemas/biomes_schema.json'),
-  blocks: require('./minecraft-data/schemas/blocks_schema.json'),
-  effects: require('./minecraft-data/schemas/effects_schema.json'),
-  commands: require('./minecraft-data/schemas/commands_schema.json'),
-  entities: require('./minecraft-data/schemas/entities_schema.json'),
-  enchantments: require('./minecraft-data/schemas/enchantments_schema.json'),
-  instruments: require('./minecraft-data/schemas/instruments_schema.json'),
-  items: require('./minecraft-data/schemas/items_schema.json'),
-  materials: require('./minecraft-data/schemas/materials_schema.json'),
-  protocolVersions: require('./minecraft-data/schemas/protocolVersions_schema.json'),
-  recipes: require('./minecraft-data/schemas/recipes_schema.json'),
-  version: require('./minecraft-data/schemas/version_schema.json'),
-  windows: require('./minecraft-data/schemas/windows_schema.json'),
-  foods: require('./minecraft-data/schemas/foods_schema.json'),
-  particles: require('./minecraft-data/schemas/particles_schema.json'),
-  mapIcons: require('./minecraft-data/schemas/mapIcons_schema.json')
+  biomes: require('./rpg-data/schemas/biomes_schema.json'),
+  blocks: require('./rpg-data/schemas/blocks_schema.json'),
+  effects: require('./rpg-data/schemas/effects_schema.json'),
+  commands: require('./rpg-data/schemas/commands_schema.json'),
+  entities: require('./rpg-data/schemas/entities_schema.json'),
+  enchantments: require('./rpg-data/schemas/enchantments_schema.json'),
+  instruments: require('./rpg-data/schemas/instruments_schema.json'),
+  items: require('./rpg-data/schemas/items_schema.json'),
+  materials: require('./rpg-data/schemas/materials_schema.json'),
+  protocolVersions: require('./rpg-data/schemas/protocolVersions_schema.json'),
+  recipes: require('./rpg-data/schemas/recipes_schema.json'),
+  version: require('./rpg-data/schemas/version_schema.json'),
+  windows: require('./rpg-data/schemas/windows_schema.json'),
+  foods: require('./rpg-data/schemas/foods_schema.json'),
+  particles: require('./rpg-data/schemas/particles_schema.json'),
+  mapIcons: require('./rpg-data/schemas/mapIcons_schema.json')
 }
 module.exports.schemas = schemas
 
