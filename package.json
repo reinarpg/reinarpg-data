@@ -1,5 +1,5 @@
 {
-  "name": "minecraft-data",
+  "name": "rpg-data",
   "version": "3.68.0",
   "description": "Provide easy access to minecraft data in node.js",
   "main": "index.js",
@@ -15,12 +15,12 @@
   },
   "standard": {
     "ignore": [
-      "minecraft-data/**/*.js"
+      "rpg-data/**/*.js"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:PrismarineJS/node-minecraft-data.git"
+    "url": "git@github.com:PrismarineJS/node-rpg-data.git"
   },
   "keywords": [
     "minecraft",
@@ -30,10 +30,10 @@
   "author": "Romain Beaumont <romain.rom1@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PrismarineJS/node-minecraft-data/issues"
+    "url": "https://github.com/PrismarineJS/node-rpg-data/issues"
   },
   "devDependencies": {
-    "minecraft-data": ".",
+    "rpg-data": ".",
     "@types/node": "^22.1.0",
     "json-schema-to-typescript": "11.0.5",
     "minecraft-packets": "^1.4.0",

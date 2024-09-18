@@ -40,5 +40,5 @@ jobs:
       if: steps.publish.outputs.type != 'none' || github.event_name == 'workflow_dispatch'
       with:
         token: ${{ secrets.PAT_PASSWORD }}
-        repository: PrismarineJS/minecraft-data
+        repository: PrismarineJS/rpg-data
         event-type: node-mcData-release

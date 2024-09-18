@@ -3,7 +3,7 @@
 Import the module:
 
 ```js
-const minecraftData = require('minecraft-data')
+const minecraftData = require('rpg-data')
 
 const mcData = minecraftData('1.19')
 ```
@@ -11,7 +11,7 @@ const mcData = minecraftData('1.19')
 or using es6 import syntax:
 
 ```js
-import minecraftData from 'minecraft-data'
+import minecraftData from 'rpg-data'
 
 const mcData = minecraftData('1.19')
 ```

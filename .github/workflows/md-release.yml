@@ -1,4 +1,4 @@
-name: minecraft-data-release
+name: rpg-data-release
 on:
   repository_dispatch:
     types: [mcData-release]
@@ -10,19 +10,19 @@ jobs:
         with:
           submodules: true
       - name: Update minecraft data
-        run: 'cd minecraft-data/ && git fetch --all --tags && git checkout ${{ github.event.client_payload.tag }}'
+        run: 'cd rpg-data/ && git fetch --all --tags && git checkout ${{ github.event.client_payload.tag }}'
       - name: Update package.json
         run: >
           sed -i -E 's/^  "version": "[0-9]+\.[0-9]+\.[0-9]+"/  "version": "${{ github.event.client_payload.tag }}"/g' package.json
       - name: Update doc/history.md
         run: >
-          sed -i -E 's/^# History/# History\n\n## ${{ github.event.client_payload.tag }}\n\n* update \`minecraft-data\`/g' doc/history.md
+          sed -i -E 's/^# History/# History\n\n## ${{ github.event.client_payload.tag }}\n\n* update \`rpg-data\`/g' doc/history.md
       - name: Create commits
         run: |
           git config user.name 'rom1504bot'
           git config user.email 'rom1504bot@users.noreply.github.com'
-          git add minecraft-data
-          git commit -m "Update `minecraft-data`"
+          git add rpg-data
+          git commit -m "Update `rpg-data`"
           git add package.json doc/history.md
           git commit -m "Release ${{ github.event.client_payload.tag }}"
       - name: Create Pull Request
@@ -36,4 +36,4 @@ jobs:
           delete-branch: true
           title: 'Release ${{ github.event.client_payload.tag }}'
           body: |
-            A new version of `minecraft-data` (`${{ github.event.client_payload.tag }}`) was released.
+            A new version of `rpg-data` (`${{ github.event.client_payload.tag }}`) was released.
