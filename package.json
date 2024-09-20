@@ -33,7 +33,7 @@
     "url": "https://github.com/reinarpg/reinarpg-data/issues"
   },
   "devDependencies": {
-    "rpg-data": "link:.",
+    "rpg-data": "file:.",
     "@types/node": "^22.1.0",
     "json-schema-to-typescript": "11.0.5",
     "minecraft-packets": "^1.4.0",
