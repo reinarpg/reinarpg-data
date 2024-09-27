@@ -1423,7 +1423,7 @@
       "sounds": "pc/1.20.4",
       "proto": "pc/latest"
     },    
-    "1.25.1": {
+    "1.25": {
       "attributes": "pc/1.17",
       "blocks": "pc/1.20",
       "blockCollisionShapes": "pc/1.20",
@@ -1438,7 +1438,7 @@
       "entities": "pc/1.20",
       "protocol": "pc/1.20",
       "windows": "pc/1.16.1",
-      "version": "pc/1.20.1",
+      "version": "pc/1.25",
       "foods": "pc/1.20",
       "particles": "pc/1.20",
       "blockLoot": "pc/1.20",
@@ -1446,7 +1446,7 @@
       "loginPacket": "pc/1.20",
       "tints": "pc/1.20",
       "mapIcons": "pc/1.16",
-      "sounds": "pc/1.20.1"
+      "sounds": "pc/1.25"
     }
   },
   "bedrock": {
