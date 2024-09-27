@@ -1447,7 +1447,7 @@
       "tints": "pc/1.20",
       "mapIcons": "pc/1.16",
       "sounds": "pc/1.20.1"
-    },
+    }
   },
   "bedrock": {
     "0.14": {
