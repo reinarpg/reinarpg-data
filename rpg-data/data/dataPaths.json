@@ -1425,7 +1425,7 @@
     },    
     "1.25": {
       "attributes": "pc/1.17",
-      "blocks": "pc/1.20",
+      "blocks": "pc/1.25",
       "blockCollisionShapes": "pc/1.20",
       "biomes": "pc/1.20",
       "effects": "pc/1.20",
