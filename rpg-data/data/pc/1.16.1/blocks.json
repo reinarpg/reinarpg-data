@@ -26379,5 +26379,35 @@
     },
     "defaultState": 17103,
     "resistance": 0.8
+  },
+    {
+    "id": 763,
+    "displayName": "rafucuku",
+    "name": "rafucuku",
+    "hardness": 1.5,
+    "minStateId": 1,
+    "maxStateId": 1,
+    "states": [],
+    "drops": [
+      1,
+      14
+    ],
+    "diggable": true,
+    "transparent": false,
+    "filterLight": 15,
+    "emitLight": 0,
+    "boundingBox": "block",
+    "stackSize": 64,
+    "material": "rock",
+    "harvestTools": {
+      "573": true,
+      "589": true,
+      "593": true,
+      "597": true,
+      "604": true,
+      "609": true
+    },
+    "defaultState": 1,
+    "resistance": 6
   }
 ]
